@@ -1,0 +1,21 @@
+{
+    "name": "js-skeleton",
+    "version": "0.1.0",
+    "description": "A starting point for other JS projects",
+    "keywords": [
+        "skeleton application",
+        "js project",
+        "skeleton"
+    ],
+    "license": "MIT",
+    "author": {
+        "name": "Milan Miščević",
+        "email": "milan.miscevic@gmail.com"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+    },
+    "scripts": {
+    }
+}
