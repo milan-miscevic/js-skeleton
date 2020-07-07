@@ -12,10 +12,7 @@
         "name": "Milan Miščević",
         "email": "milan.miscevic@gmail.com"
     },
-    "dependencies": {
-    },
-    "devDependencies": {
-    },
-    "scripts": {
-    }
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {}
 }
