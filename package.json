@@ -13,6 +13,10 @@
         "email": "milan.miscevic@gmail.com"
     },
     "dependencies": {},
-    "devDependencies": {},
-    "scripts": {}
+    "devDependencies": {
+        "jest": "^26.1.0"
+    },
+    "scripts": {
+        "test": "jest"
+    }
 }
