@@ -19,9 +19,10 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "jest": "^27.5"
+        "mocha": "^9.2.2"
     },
     "scripts": {
-        "test": "jest"
-    }
+        "test": "mocha"
+    },
+    "type": "module"
 }

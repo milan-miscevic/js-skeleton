@@ -1,5 +1,8 @@
-const sum = require('../src/sample');
+import assert from 'assert';
+import sum from '../src/sample.js';
 
-test('adds 1 + 2 to equal 3', () => {
-    expect(sum(1, 2)).toBe(3);
+describe("App", function(){
+  it("should test if function returns 1+2 = 3", function(){
+      assert.equal(sum(1,2), 3);
+  });
 });
