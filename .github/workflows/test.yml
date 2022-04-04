@@ -19,10 +19,10 @@ jobs:
     runs-on: ${{ matrix.os }}
 
     steps:
-      - uses: "actions/checkout@v3"
       - uses: "actions/setup-node@v3"
         with:
           node-version: ${{ matrix.node-version }}
           cache: npm
+      - uses: "actions/checkout@v3"
       - run: npm i
       - run: npm run test
