@@ -17,12 +17,12 @@
         "name": "Milan Miščević",
         "email": "milan.miscevic@gmail.com"
     },
+    "scripts": {
+      "test": "mocha"
+    },
     "dependencies": {},
     "devDependencies": {
         "mocha": "^9.2.2"
-    },
-    "scripts": {
-        "test": "mocha"
     },
     "type": "module"
 }
