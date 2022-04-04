@@ -23,13 +23,13 @@ jobs:
           - "ubuntu-latest"
           - "macOS-latest"
           - "windows-latest"
-    runs-on: ${{ matrix.os }}
+    runs-on: "${{ matrix.os }}"
 
     steps:
       - uses: "actions/checkout@v3"
       - uses: "actions/setup-node@v3"
         with:
-          node-version: ${{ matrix.node-version }}
-          cache: npm
-      - run: npm i
-      - run: npm run test
+          node-version: "${{ matrix.node-version }}"
+          cache: "npm"
+      - run: "npm i"
+      - run: "npm run test"
