@@ -5,4 +5,12 @@
 [![GitHub Build](https://github.com/milan-miscevic/js-skeleton/workflows/Test/badge.svg?branch=master)](https://github.com/milan-miscevic/js-skeleton/actions)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=milan-miscevic_js-skeleton&metric=alert_status)](https://sonarcloud.io/dashboard?id=milan-miscevic_js-skeleton)
 
-This repository provides a starting point for other JS projects.
+This repository provides a starting point for other JavaScript projects.
+
+## Installation
+
+In progress...
+
+## Usage
+
+For available commands check [Makefile](Makefile).
