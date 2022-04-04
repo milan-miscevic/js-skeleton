@@ -1,6 +1,10 @@
 DOCKER=docker-compose -f ./docker/docker-compose.yml
 NODE=node16
 
+install:
+	$(DOCKER) build
+	$(DOCKER) run --rm $(NODE) npm i
+
 unit:
 	$(DOCKER) run --rm node12 npm run test
 	$(DOCKER) run --rm node14 npm run test
