@@ -13,7 +13,6 @@ This repository provides a starting point for other JavaScript projects.
 1. Clone the project.
 1. Update the `package.json` data:
     * `name`
-    * `version`
     * `description`
     * `keywords`
 1. Update the `package-lock.json` file.
