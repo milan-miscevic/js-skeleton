@@ -22,7 +22,7 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "mocha": "^9.2.2"
+        "mocha": "^10.2.0"
     },
     "type": "module"
 }
